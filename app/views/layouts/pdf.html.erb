@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Schedule</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= wicked_pdf_stylesheet_link_tag "application" -%>
+    <%= wicked_pdf_stylesheet_link_tag "bootstrap" %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
